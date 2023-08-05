@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="waboutth=device-waboutth, initial-scale=1.0">
+    <title>About</title>
+
+    <!-- Bootstrap link  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+        <!-- Css Link  -->
+        <link rel="stylesheet" href="style.css">
+</head>
+
+<style>
+
+    h1{
+        font-weight: 500;
+    }
+
+    #about {
+        margin-top: 100px;
+        padding-bottom: 50px;
+        border-bottom: 1px solid rgba(128, 128, 128, 0.561);
+    }
+
+    .para {
+        --text-opacity: 1;
+        color: #374151;
+        font-weight: 500;
+        line-height: 1.75rem;
+        text-align: justify;
+    }
+
+    .para1 {
+        font-weight: 700;
+    }
+
+    #about .box {
+        padding: 1.75rem 1rem;
+        text-align: center;
+        width: 180px;
+        height: 110px;
+        margin: 33px;
+    }
+
+    #about .green {
+        background-color: #bcf0da;
+    }
+
+    #about .pink {
+        background-color: #dcd7fe;
+    }
+
+    #about .blue {
+        background-color: #c3ddfd;
+    }
+
+    #about .yellow {
+        background-color: #fce96a;
+    }
+
+    #hos-gallery {
+        margin: 70px 0;
+    }
+
+    #hos-gallery img{
+        width: 100%;
+    }
+
+    #hos-gallery h1{
+        margin-bottom: 22px;
+    }
+
+    #vision-sec {
+        background-image: url(img/about-us-background.jpg);
+        background-position: center top;
+        width: 100%;
+        overflow: auto;
+    }
+
+    .vision {
+        width: 45%;
+        margin: 70px 0;
+        border-bottom: 1px solid rgba(128, 128, 128, 0.506);
+        padding-bottom: 33px;
+    }
+
+    .mission{
+        width: 45%;
+        margin-bottom: 70px;
+    }
+
+    @media screen and (max-width:992px){
+        html, body{
+            width: 100%;
+            margin: 100%;
+            margin: 0;
+            padding: 0;
+            overflow-x: hidden;
+        }
+
+        .m-top{
+            margin-top: 33px;
+        }
+
+
+    }
+</style>
+
+
+<body>
+    
+    <header>
+        <!-- Before nav Start  --------------------------------------------------------->
+        <div class="before-nav">
+            <div class="container">
+
+                <div class="row custom-row">
+
+                    <div class="col-lg-6 col-md-4 ">
+                        <div class="box1">
+                            <img src="img/main-logo.png" alt="" class="logo">
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-4 ">
+                        <div class="mail-box">
+                            <div class="d-flex">
+                                <span class="fa fa-wechat "></span>
+                                <div class="right">
+                                    <h6>Email</h6>
+                                    <p>lagan@info.com</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-4">
+                        <div class="phone-box">
+                            <div class="d-flex content">
+                                <span class="fa fa-mobile-phone "></span>
+                                <div class="right">
+                                    <h6>Help Line</h6>
+                                    <p>378-238-8956</p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+        <!-- Before nav End  ------------------------------------------------------------>
+
+
+        <!-- Navbar start --------------------------------------------------------------->
+        <nav class="navbar navbar-expand-lg ">
+
+            <div class="container-fluid">
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarNav">
+
+                    <ul class="navbar-nav">
+
+                        <li class="nav-item">
+                            <a class="nav-link active text-white" aria-current="page" href="index.html">Home</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="about.html">About</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="appointment.html"> Appointment</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="contact.html">Contact us</a>
+                        </li>
+
+                        <li class="nav-item dropdown text-white">
+                            <a class="nav-link dropdown-toggle text-white" href="#" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Departments
+                            </a>
+                            <!-- <div class="container"> -->
+
+                            <ul class="dropdown-menu text-white">
+                                <!-- <div class="row"> -->
+
+                                    <li>
+                                        Department
+                                        <hr>
+                                    </li>
+
+                                    <li>
+                                        <a href="#">Service</a>
+                                        <a href="#">Service Dept. 2</a>
+                                        <a href="#">Service Dept. 3</a>
+                                    </li>
+
+                                    <li>
+                                        <a href="#"> Cardiology </a>
+                                        <a href="#"> Gastroenterology </a>
+                                        <a href="#"> Ophthalmology </a>
+                                        <a href="#"> Pulmonology </a>
+                                    </li>
+
+                                    <li>
+                                        <a href="#"> Gynecology </a>
+                                        <a href="#"> Orthopedics </a>
+                                        <a href="#"> Radiolog </a>
+                                        <a href="#"> Urology </a>
+                                    </li>
+
+                                    <li>
+                                        <a href="#"> Nurology </a>
+                                        <a href="#"> Orthopedics </a>
+                                    </li>
+
+                                
+                            </ul>
+
+
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-white" href="#" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Find A Doctor
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Our Team</a></li>
+                                <li><a class="dropdown-item" href="#">Doctor Detail</a></li>
+
+                            </ul>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-white" href="#" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Blog
+                            </a>
+                            <ul class="dropdown-menu text-white">
+                                <li><a class="dropdown-item" href="#"> Grid </a></li>
+                                <li><a class="dropdown-item" href="#"> Masonary </a></li>
+                                <li><a class="dropdown-item" href="#"> Full Width </a></li>
+                                <li><a class="dropdown-item" href="#"> Left Slidebar </a></li>
+                                <li><a class="dropdown-item" href="#"> Right Slidebar </a></li>
+
+                            </ul>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-white" href="#" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Pages
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#"> Career </a></li>
+                                <li><a class="dropdown-item" href="#"> Testimonials </a></li>
+                                <li><a class="dropdown-item" href="#"> 404 </a></li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-white" href="#" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Gallery
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Column 1 <sup>st</sup></a></li>
+                                <li><a class="dropdown-item" href="#">Column 2 <sup>nd</sup></a></li>
+                            </ul>
+                        </li>
+
+
+
+
+
+                    </ul>
+
+                </div>
+            </div>
+        </nav>
+        <!-- Navbar End -->
+
+    </header>
+
+    <section id="about">
+        <div class="container ">
+
+            <div class="row">
+                <div class="col-lg-6 offset-lg-1">
+                    <h2>About us</h2>
+                    <p class="para1 para">We are successfully finished 13 years</p>
+                    <p class="para">In these years consectetur adipiscing elit. Curabitur massa libero, feugiat
+                        pellentesque accumsan at, posuere eget justo. Etiam sit amet nulla sed metus auctor sodales nec
+                        et est. Etiam ut suscipit ante. Cras finibus feugiat nisl quis sollicitudin. Nam tempor metus et
+                        purus malesuada aliquet. Ut varius massa about nibh luctus, dapibus rhoncus metus suscipit.
+                        Aliquam dignissim libero about suscipit finibus Nullam semper.</p>
+                </div>
+
+
+                <div class="col-lg-4">
+                    <div class="d-flex">
+                        <div class="left">
+                            <div class="green box">
+                                <h5>Ambulance Service</h5>
+                            </div>
+                            <div class="pink box">
+                                <h5>Qualified
+                                    Doctors</h5>
+                            </div>
+                        </div>
+
+                        <div class="right">
+                            <div class="blue box">
+                                <h5>Health
+                                    Services</h5>
+                            </div>
+                            <div class="yellow box">
+                                <h5>100% Happy
+                                    Patients</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <Section id="hos-gallery">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1 class="text-center">Hospital Gallery</h1>
+                </div>
+
+                <div class="col-lg-4">
+                    <img src="img/gallery1.jpg" alt="">
+                </div>
+
+                <div class="col-lg-4">
+                    <img src="img/gallery2.jpg" alt="" class="m-top">
+                </div>
+
+                <div class="col-lg-4">
+                    <img src="img/gallery3.jpg" alt="" class="m-top">
+                </div>
+            </div>
+        </div>
+    </Section>
+
+    <section id="vision-sec">
+        <div class="container">
+
+            <div class="vision">
+                <h2>Our Vision</h2>
+                <p class="para">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur massa libero, feugiat
+                    pellentesque accumsan at, posuere eget justo. Etiam sit amet nulla sed metus auctor sodales nec et
+                    est.</p>
+            </div>
+
+            <div class="mission">
+                <h2>Our Mission</h2>
+                <p class="para">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur massa libero, feugiat
+                    pellentesque accumsan at, posuere eget justo. Etiam sit amet nulla sed metus auctor sodales nec et
+                    est.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="med-special text-center ">
+        <div class="container">
+            <h1>Our Medical Specialist</h1>
+
+            <div class="row">
+
+                <div class="col-lg-3 col-md-6">
+                    <img src="img/team1.jpg" alt="">
+                    <h5>Dr. Vasumathi Mathew</h5>
+                    <p>Gynecologist</p>
+
+                </div>
+
+                <div class="col-lg-3 col-md-6">
+
+                    <img src="img/team3.jpg" alt="">
+                    <h5>Dr. Sudexa</h5>
+                    <p>Eye Specialist</p>
+
+                </div>
+
+                <div class="col-lg-3 col-md-6">
+                    <img src="img/team2.jpg" alt="">
+                    <h5>Dr. Nell Damron</h5>
+                    <p>Gynecologist</p>
+                </div>
+
+                <div class="col-lg-3 col-md-6">
+                    <img src="img/team4.jpg" alt="">
+                    <h5>Dr. Soyab</h5>
+                    <p>Orthopedics Specialist</p>
+                </div>
+
+            </div>
+
+        </div>
+
+        <details>
+            <summary class="summary"> <a href="#" class="green">Check All Doctors</a></summary>
+        </details>
+
+    </section>
+
+    <footer>
+        <div class="container">
+
+            <div class="row">
+
+                <div class="col-lg-3 col-md-6">
+                    <h4>Contact</h4>
+                    <p>7920 Glenlake Avenue <br>
+                        Ankeny, IA 50023</p>
+
+                    <p>(233) 849 3418 4069</p>
+                    <a href="#" class="mail"> info@mail.com</a>
+
+                    <div class="d-flex">
+                        <img src="img/facebook.svg" alt="">
+                        <img src="img/twitter.svg" alt="" class="m-left">
+                        <img src="img/linkedin.svg" alt="" class="m-left">
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 text-white">
+                    <h4>Navigation</h4>
+                    <p> <a href="#">Home</a></p>
+                    <p> <a href="#">About</a></p>
+                    <p> <a href="#">Find a Doctor</a></p>
+                    <p> <a href="#"> Book Appointment</a></p>
+                    <p> <a href="#">Testimonials</a></p>
+                    <p> <a href="#">Contact us</a></p>
+                </div>
+
+                <div class="col-lg-3 col-md-6">
+                    <h4>Departments</h4>
+
+                    <p><a href="#"> Cardiology </a> </p>
+                    <p><a href="#"> Gastroenterology </a></p>
+                    <p><a href="#"> Ophthalmology </a></p>
+                    <p><a href="#"> Pulmonology </a></p>
+                    <p><a href="#"> Gynecology </a></p>
+                    <p><a href="#"> Orthopedics </a></p>
+                    <p><a href="#"> Radiolog </a></p>
+                    <p><a href="#"> Urology </a></p>
+                    <p><a href="#"> All Departments</a></p>
+                </div>
+
+
+                <div class="col-lg-3 col-md-6">
+                    <h4>Latest news & tips</h4>
+                    <p> Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse.
+                    <p>
+
+                        <date>09 June 2022</date>
+
+                    <p>Lummy text of the printing and typesetting industry hospital.</p>
+
+                    <date>10 June 2021</date>
+                </div>
+
+
+            </div>
+            <hr>
+            <p>Copyright 2018 © All rights reserved.</p>
+        </div>
+    </footer>
+
+
+</body>
+
+</html>
